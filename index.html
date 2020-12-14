@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./node_modules/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="/node_modules/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="/node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
 
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
                     <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
                     <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
                     <li class="nav_item"><a href="#work" class="nav_link">Work</a></li>
@@ -35,10 +36,10 @@
         <!-- Home  -->
             <section class="home bd-grid" id="home">
                 <div class="home_data">
-                    <h1 class="home_title">
-                        Hi, <br> I'am <span class="home_title-color">Dinesh</span> <br> Web Developer
+                    <h1 class="home_title" data-aos="fade-down" data-aos-delay="200">
+                        Hi, <br> I'm <span class="home_title-color">Dinesh</span> <br> Web Developer
                     </h1>
-                    <a href="#" class="button">Contact</a>
+                    <a href="#" class="button"  data-aos="fade-up" data-aos-delay="200">Contact</a>
                 </div>
 
                 <div class="home_social">
@@ -47,7 +48,7 @@
                     <a href="#" class="home_social-icon"><i class="bx bxl-github"></i></a>
                 </div>
                 
-                <div class="home_img">
+                <div class="home_img" data-aos="fade-left" data-aos-delay="200">
                     <img src="/assets/images/1.jpg" alt="">
                 </div>
 
@@ -56,12 +57,12 @@
 
         <!-- About -->
         <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-delay="200">About</h2>
             <div class="about_container bd-grid">
-                <div class="about_img">
+                <div class="about_img" data-aos="fade-right" data-aos-delay="200"> 
                     <img src="/assets/images/2.jpg" alt="">
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-delay="200">
                     <h2 class="about_subtitle">I'am Dinesh</h2>
                     <p class="about_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos inventore ullam ab ad, repellat quod itaque, alias delectus impedit non maxime autem quam! Maiores deleniti, at qui explicabo doloribus ea eos dicta modi porro laboriosam optio facilis odit architecto nam, minus tempora? Temporibus vero numquam ad non voluptas aut veritatis.</p>
                 </div>
@@ -71,14 +72,14 @@
 
         <!-- Skills -->
         <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-delay="200">Skills</h2>
 
             <div class="skills_container bd-grid">
                 <div>
-                    <h2 class="skills_subtitle">Professional Skills</h2>
-                    <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, in. Expedita, doloremque nesciunt qui magnam neque alias vitae velit sapiente facilis fuga. Commodi, iste accusamus?</p>
+                    <h2 class="skills_subtitle" data-aos="fade-right" data-aos-delay="200">Professional Skills</h2>
+                    <p class="skills_text" data-aos="fade-right" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, in. Expedita, doloremque nesciunt qui magnam neque alias vitae velit sapiente facilis fuga. Commodi, iste accusamus?</p>
 
-                    <div class="skills_data">
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="400">
                         <div class="skills_names">
                             <i class="bx bxl-html5 skills_icons"></i>
                             <span class="skills_name">HTML5</span>
@@ -91,7 +92,7 @@
                         <div class="skills_bar skills_html"></div>
                     </div>
                     
-                    <div class="skills_data">
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="500">
                         <div class="skills_names">
                             <i class="bx bxl-css3 skills_icons"></i>
                             <span class="skills_name">CSS3</span>
@@ -104,7 +105,7 @@
                         <div class="skills_bar skills_css"></div>
                     </div>
                     
-                    <div class="skills_data">
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="600">
                         <div class="skills_names">
                             <i class="bx bxl-javascript skills_icons"></i>
                             <span class="skills_name">JAVASCRIPT</span>
@@ -117,7 +118,7 @@
                         <div class="skills_bar skills_js"></div>
                     </div>
                     
-                    <div class="skills_data">
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="700">
                         <div class="skills_names">
                             <i class="bx bxl-bootstrap skills_icons"></i>
                             <span class="skills_name">BOOTSTRAP</span>
@@ -130,7 +131,7 @@
                         <div class="skills_bar skills_bootstrap"></div>
                     </div>
                     
-                    <div class="skills_data">
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="800">
                         <div class="skills_names">
                             <i class="bx bxl-git skills_icons"></i>
                             <span class="skills_name">GIT</span>
@@ -144,7 +145,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-left" data-aos-delay="200">
                     <img src="/assets/images/4.jpg" class="skills_img" alt="">
                 </div>
 
@@ -156,16 +157,16 @@
         <!-- Work -->
 
         <section class="work section" id="work">
-            <h2 class="section-title">Work</h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-delay="200">Work</h2>
 
             <div class="work_container bd-grid">
-                <div class="work_img">
+                <div class="work_img" data-aos="flip-left" data-aos-delay="400">
                     <img src="/assets/images/5.jpg" alt="">
                 </div>
-                <div class="work_img">
+                <div class="work_img" data-aos="flip-right" data-aos-delay="400">
                     <img src="/assets/images/6.jpg" alt="">
                 </div>
-                <div class="work_img">
+                <div class="work_img" data-aos="flip-down" data-aos-delay="400">
                     <img src="/assets/images/3.jpg" alt="">
                 </div>
             </div>
@@ -177,9 +178,9 @@
         <!-- Contact -->
 
         <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
+            <h2 class="section-title" data-aos="fade-down" data-aos-delay="200">Contact</h2>
 
-            <div class="contact_container bd-grid">
+            <div class="contact_container bd-grid" data-aos="zoom-in" data-aos-delay="200">
                 <form action="" class="contact_form">
                     <input type="text" placeholder="Name" class="contact_input">
                     <input type="mail" placeholder="Mail" class="contact_input">
@@ -209,8 +210,10 @@
     </footer>
 
     <!-- Footer -->
+    
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/aos/dist/aos.js"></script>
+    <script src="/assets/js/main.js"></script>
 
-    <script src="./assets/js/main.js"></script>
-    <script src="./node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
 </body>
 </html>

@@ -25,3 +25,8 @@ function linkAction() {
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+// AOS 
+$(document).ready(function () {
+    AOS.init();
+});
