@@ -25,3 +25,45 @@ function linkAction() {
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+// Scroll Reveal
+
+const sr = ScrollReveal({                           //importing scrollReveal               
+    duration: 2000,                                 //setting configuration 
+    reset: true                                     //setting configuration
+});
+
+sr.reveal('.home',{
+    distance: '40px'
+});
+
+sr.reveal('.about_img',{
+    distance: '30px',
+    origin: 'left'
+});
+
+sr.reveal('.about_details',{
+    distance: '16px',
+    origin: 'right'
+});
+
+sr.reveal('.skills_data',{
+    distance: '60px',
+    origin: 'left',
+    interval: 300 
+});
+
+sr.reveal('.skills_img',{
+    distance: '16px',
+    origin: 'right'
+})
+
+sr.reveal('.contact_container',{
+    distance: '30px',
+    origin: 'bottom'
+});
+
+sr.reveal('.section-title',{
+    distance: '20px',
+    origin: 'top'
+})

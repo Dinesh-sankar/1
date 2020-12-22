@@ -48,7 +48,7 @@
 }
 
 /* Base */
-*, ::before, ::after{
+*,::before,::after{
     box-sizing: border-box;
 }
 html{
@@ -68,7 +68,7 @@ ul{
     padding: 0;
     list-style: none;
 }
-*{
+a{
     text-decoration: none;
 }
 img{
@@ -169,6 +169,8 @@ img{
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+/* Active Menu */
 .active::after{
     position: absolute;
     content: "";
@@ -387,7 +389,7 @@ img{
     }
 
     .nav{
-        height: calc(var(--header-height + 1rem));
+        height: calc(var(--header-height) + 1rem);
     }
     .nav_list{
         display: flex;
